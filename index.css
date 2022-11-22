@@ -1,0 +1,114 @@
+/* Momen Imad | 21910404 , 2022*/
+
+body {
+	font-family: "Trebuchet MS", "Verdana", sans-serif;
+	color: white;
+	background-color: #FEFD7E;
+}
+
+a {
+	color:#D22AFB;
+	text-decoration: none;
+
+
+}
+
+a:hover {
+      text-decoration: underline;
+}
+
+p {
+	color:#FB9BA0;
+}
+
+dd {
+	color:#000000;
+}
+
+
+h1 {
+	font-size: 30pt;
+	color:#FB9BA0;
+}
+
+span {
+	color:  #000000;
+}
+
+ul, ol {
+	text-align:left;
+}
+
+
+ul {
+  list-style-type: square;
+  background: #2D2726;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+#squ {
+	color: #D22AFB;
+}
+
+#cap {
+  font-size: 200%;
+  font-family: algerian, courier;
+  line-height: 80%;
+  color:FB9BA0;
+}
+
+#sty {
+	color: #000000;
+}
+
+marquee {
+	float: right;
+	color: D22AFB;
+}
+
+ol li {
+  background: #FB9BA0;
+  padding: 5px;
+  margin-left: 35px;
+  }
+
+dl {
+	color: #D22AFB;
+    font-weight: bold
+    display: block;
+    font-size: 80%;
+    margin-left: 10px;
+}
+ol {
+	counter-reset: item 4;
+	display:block;
+	margin-left: 16px;
+}
+
+ul {
+	background-color: FB9BA0;
+}
+
+ol li {
+  display:block;
+  margin-left:-1.4em;
+}
+ol li dl {
+	display:block;
+	margin-left:1.69em;
+}
+
+ol li::before {
+	content:counter(item, decimal) ". ";
+	counter-increment:item -1;
+	padding-right:0.2em;
+}
+
+
+
+
+
+
+
+
